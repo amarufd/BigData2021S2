@@ -1,3 +1,3 @@
 # BigData 
-## 2021 S2
-Material de desarrollado en la clase de BigData
+## Año 2021 Semestre Dos
+**Material** de _desarrollado_ en la clase
