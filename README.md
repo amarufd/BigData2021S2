@@ -1,2 +1,3 @@
-# BigData2021S2
-Desarrollo del material desarrollado en la clase de BigData
+# BigData 
+## 2021 S2
+Material de desarrollado en la clase de BigData
