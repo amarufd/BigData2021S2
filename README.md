@@ -3,3 +3,13 @@
 # BigData 
 ## Año 2021 Semestre Dos
 **Material** de _desarrollado_ en la clase
+
+una lista
+
+<ol>
+<li>Nicolas</li>
+<li>Jocelyn</li>
+<li>Camila</li>
+<li>Cristina</li>
+<li>Pedro</li>
+</ol>
