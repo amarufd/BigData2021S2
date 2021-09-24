@@ -1,0 +1,59 @@
+/* Zona de Tags */
+
+table, th, td {
+    border: 2px solid greenyellow;
+}
+body {
+    background-color: gray;
+    color: aliceblue;
+    text-align: center;
+}
+a {
+    color: red;
+}
+
+/* Zona de Clases */
+
+.articulo{
+    border: 4px solid rebeccapurple;
+    background-color: black;
+    text-align: center;
+}
+.contenedorImagen{
+    border: 2px solid yellow;
+}
+
+.imagen{
+    width: 150px;
+}
+
+.contenidoArticulo{
+
+    border: 2px solid wheat; 
+}
+
+/* Zona de Ids */
+
+#tituloUno{
+    color: cyan;
+}
+
+#tituloDos{
+    color: darkmagenta;
+}
+
+#tituloTres{
+    color: cornflowerblue;
+}
+
+#parrafoUno{
+    color: cyan;
+}
+
+#parrafoDos{
+    color: darkmagenta;
+}
+
+#parrafoTres{
+    color: cadetblue;
+}

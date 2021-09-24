@@ -3,64 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <title>Título</title>
-    <style>
-        table, th, td {
-            border: 1px solid greenyellow;
-        }
-        body {
-            background-color: black;
-            color: aliceblue;
-        }
-        a {
-            color: aquamarine;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div>
-        <h1>
-            Esto es un título h1 
-        </h1>
-        <h2>
-            Esto es un título h2
-        </h2>
-        <h3>
-            El niño con la niña andan en bicicleta
-        </h3>
-        <a href="https://www.whosampled.com">
-            Link a who sampled
-        </a>
-        <div>
-            <p>Esto es lo que nosotros vemos</p> 
-            <p>y el mundo real no tiene ctrl-z</p>
-            <p>pero el mundo dígital sí</p>
+    <div class="articulo">
+        <div class="contenedorImagen">
+            <img class="imagen" src="img/cactus.png" />
         </div>
-        <div>
-            <table>
-                <tr>
-                    <th>
-                        Curso
-                    </th>
-                    <th>
-                        Precio
-                    </th>
-                </tr>
-                <tr>
-                    <td>WebScrapping para alumnos de la UTEM</td>
-                    <td>Gratis</td>
-                </tr>
-                <tr>
-                    <td>Diplomadp en WebScrapping PUC</td>
-                    <td>$1.890.000</td>
-                </tr>
-            </table>
-        </div>
-        <div>
-            <img src="img/chanchitofeliz.jpg" />
-            <a href="https://www.whosampled.com" target="_blank">
-                <img src="img/whosampled_logo_hires.png" alt="" width="50%" height="50%" />
+        <div class="contenidoArticulo">
+            <h1 id="tituloUno">
+                Cactus
+            </h1>
+            <h2>
+                Cactusin
+            </h2>
+            <div>
+                <p>Cactusin es un ser alegre...</p>
+            </div>
+            <a href="https://www.whosampled.com">
+                Link a who sampled
             </a>
         </div>
+    </div>
+    <div class="articulo">
+        <div class="contenedorImagen">
+            <img class="imagen" src="img/bandita.png" />
+        </div>
+        <div class="contenidoArticulo">
+            <h1 id="tituloDos">
+                Bandita 
+            </h1>
+            <h2>
+                Parchitacurita
+            </h2>
+            <div>
+                <p>Preocupada siempre de cuidar las heridas del mundo</p>
+            </div>
+            <a href="https://www.whosampled.com">
+                Link a who sampled
+            </a>
+        </div>
+    </div>
+    <div class="articulo">
+        <div class="contenedorImagen">
+            <img class="imagen" src="img/nacho.jpeg" />
+        </div>
+        <div class="contenidoArticulo">
+            <h1 id="tituloTres">
+                Nacho 
+            </h1>
+            <h2>
+                Don Nacho
+            </h2>
+            <div>
+                <p id="parrafoTres" >Un ser siempre buscando la Salsa</p>
+            </div>
+            <a href="https://www.whosampled.com">
+                Link a who sampled
+            </a>
+        </div>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Curso</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>WebScrapping para alumnos de la UTEM</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Diplomadp en WebScrapping PUC</td>
+                <td>$1.890.000</td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
